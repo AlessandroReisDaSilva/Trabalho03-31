@@ -70,7 +70,7 @@ git push -u origin feature/nome-da-funcionalidade
 
 ## 🖼️ Prévia
 
-![Prévia do projeto](instrucoes.jpg)
+![Prévia do projeto](instrucoes.png)
 
 ## Membros
 
