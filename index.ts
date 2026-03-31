@@ -45,6 +45,19 @@ function acelerar(veiculo: Veiculo): void{
     console.log(veiculo.velocidade);
 }}
 
+function mudarMarcha(veiculo: Veiculo, novaMarcha: number): void { 
+    if (novaMarcha < -1 || novaMarcha > veiculo.numeroMarchas) {         
+        console.log("Marcha Inválida! Escolha entre -1 (ré) e " + veiculo.numeroMarchas);         
+        return;     }          veiculo.marchaAtual = novaMarcha;          
+        if (novaMarcha === -1) {         
+            console.log("Marcha em Ré");     
+        } 
+        else if (novaMarcha === 0) {        
+             console.log("Ponto Morto");     } else {        
+                 console.log("Marcha " + novaMarcha);     } }  
+                 
+
+
 function criaVeiculo(): Veiculo{
     const veiculo: Veiculo = new Veiculo();
     veiculo.marca = teclado('Marca: ');
