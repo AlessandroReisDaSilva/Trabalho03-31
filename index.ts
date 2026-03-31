@@ -27,6 +27,9 @@ while(true){
             break;
         default:
             break;
+        case 4:
+            descerMarcha(carro);
+            break;
     }
 }
 
@@ -55,5 +58,14 @@ function frear(veiculo: Veiculo): void {
             console.log(`Velocidade atual: ${veiculo.velocidade.toFixed(1)}`);
     } else {
         console.log("O veículo já está parado.");
+    }
+}
+
+function descerMarcha(veiculo: Veiculo): void {
+    if (veiculo.marchaAtual > 0) {
+        veiculo.marchaAtual--;
+        console.log(`Marcha atual: ${veiculo.marchaAtual}`);
+    } else {
+        console.log("O veículo já está em ponto morto (marcha 0).");
     }
 }
