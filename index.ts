@@ -1,5 +1,5 @@
-import { Veiculo } from "./Veiculo";
 import prompt from "prompt-sync";
+import { Veiculo } from "./Veiculo";
 
 const teclado = prompt();
 
@@ -23,7 +23,7 @@ while(true){
         case 1:
             acelerar(carro);
             break;
-    
+
         default:
             break;
     }
@@ -42,6 +42,7 @@ function criaVeiculo(): Veiculo{
     veiculo.marca = teclado('Marca: ');
     veiculo.modelo = teclado('Modelo: ');
     veiculo.potencia = +teclado('Potência: ');
+    veiculo.rodas = + teclado('Número de rodas: ')
     veiculo.numeroMarchas = +teclado('Número de marchas: ');
     return veiculo;
 }
