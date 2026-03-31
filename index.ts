@@ -69,3 +69,12 @@ function imprimir(veiculo: Veiculo): void {
     console.log("Modelo: "+veiculo.modelo);
     console.log("Rodas: "+veiculo.rodas);
 }
+
+function subirMarcha(veiculo: Veiculo): void {
+    if (veiculo.marchaAtual < veiculo.numeroMarchas) {
+        veiculo.marchaAtual++;
+        console.log(`Marcha atual: ${veiculo.marchaAtual}`);
+    } else {
+        console.log("Já está na marcha máxima.");
+    }
+}
