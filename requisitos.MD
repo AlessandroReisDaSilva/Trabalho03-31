@@ -2,7 +2,7 @@
 [x] Criar veículo
 [ ] Imprimir o veículo
 3. Acelerar
-4. Frear 
+4.[x] Frear
 5. Subir marcha
 6. Reduzir marcha
 

@@ -23,7 +23,9 @@ while(true){
         case 1:
             acelerar(carro);
             break;
-    
+        case 2: 
+            frear(carro);
+            break;
         default:
             break;
     }
@@ -44,4 +46,15 @@ function criaVeiculo(): Veiculo{
     veiculo.potencia = +teclado('Potência: ');
     veiculo.numeroMarchas = +teclado('Número de marchas: ');
     return veiculo;
+}
+function frear(veiculo: Veiculo): void {
+    if (veiculo.velocidade > 0) {
+        veiculo.velocidade -= veiculo.potencia * 0.1;
+        if (veiculo.velocidade < 0) {
+            veiculo.velocidade = 0;
+        }
+        console.log(`Velocidade atual: ${veiculo.velocidade.toFixed(1)}`);
+    } else {
+        console.log("O veículo já está parado.");
+    }
 }
