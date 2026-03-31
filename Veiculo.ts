@@ -1,4 +1,4 @@
-export class Veiculo{
+export class Veiculo {
     marca: string = 'Padrão';
     modelo: string = 'Padrão';
     potencia: number = 0;
