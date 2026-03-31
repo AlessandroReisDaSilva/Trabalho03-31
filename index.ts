@@ -25,6 +25,10 @@ while(true){
         case 2:
             frear(carro);
             break;
+        case 5:
+            imprimir(carro);
+            break;
+
         default:
             break;
     }
@@ -59,3 +63,9 @@ function frear(veiculo: Veiculo): void {
     }
 }
 
+function imprimir(veiculo: Veiculo): void {
+    console.log("Ano: "+veiculo.ano);
+    console.log("Marca: "+veiculo.marca);
+    console.log("Modelo: "+veiculo.modelo);
+    console.log("Rodas: "+veiculo.rodas);
+}
