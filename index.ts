@@ -25,6 +25,9 @@ while(true){
         case 2:
             frear(carro);
             break;
+        case 3:
+            subirMarcha(carro);
+            break;
         case 5:
             imprimir(carro);
             break;
