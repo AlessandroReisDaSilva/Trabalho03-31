@@ -80,3 +80,4 @@ git push -u origin feature/nome-da-funcionalidade
 <a href="https://github.com/GuilhermeMaglia"><img src="https://github.com/GuilhermeMaglia.png" width="45" height="45"></a> &nbsp;
 <a href="https://github.com/gustavobarbosa-dev"><img src="https://github.com/gustavobarbosa-dev.png" width="45" height="45"></a> &nbsp;
 <a href="https://github.com/Renycosta"><img src="https://github.com/Renycosta.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/mateus-zanatta"><img src="https://github.com/mateus-zanatta.png" width="45" height="45"></a> &nbsp;
