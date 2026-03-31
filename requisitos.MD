@@ -4,5 +4,5 @@
 3. Acelerar
 4.[x] Frear
 5. Subir marcha
-6. Reduzir marcha
+6.[x] Reduzir marcha
 

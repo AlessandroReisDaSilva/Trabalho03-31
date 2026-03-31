@@ -38,6 +38,9 @@ while(true){
 
         default:
             break;
+        case 4:
+            descerMarcha(carro);
+            break;
     }
 }
 
@@ -92,7 +95,7 @@ function frear(veiculo: Veiculo): void {
     if (veiculo.velocidade > 0) {
         veiculo.velocidade -= veiculo.potencia * 0.1;
         if (veiculo.velocidade < 0) veiculo.velocidade = 0;
-        console.log(`Velocidade atual: ${veiculo.velocidade.toFixed(1)}`);
+            console.log(`Velocidade atual: ${veiculo.velocidade.toFixed(1)}`);
     } else {
         console.log("O veículo já está parado.");
     }

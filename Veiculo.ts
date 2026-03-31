@@ -6,6 +6,6 @@ export class Veiculo {
     numeroMarchas: number = 5;
     marchaAtual: number = 0;
     velocidade: number = 0;
+    nome: string = 'jon';
     ano: number = 0;
-    combustivel: number = 100;
 }
