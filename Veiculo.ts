@@ -7,4 +7,5 @@ export class Veiculo{
     marchaAtual: number = 0;
     velocidade: number = 0;
     nome: string = 'jon';
+    ano: number = 0;
 }
